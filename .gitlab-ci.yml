@@ -42,7 +42,7 @@ code coverage:
     paths:
       - mochawesome-report/mochawesome.html
   coverage: '/^Statements\s*:\s*([^%]+)/'
-code quality:
+code_quality:
   image: docker:stable
   stage: post test
   variables:
