@@ -8,6 +8,7 @@ const scheduleSuite = require('./schedule/schedule');
 const stationSuite = require('./station/station');
 const stationMessageSuite = require('./stationMessage/stationMessage');
 const trainOrderSuite = require('./trainOrder/trainOrder');
+const trainStatusSuite = require('./trainStatus/trainStatus');
 
 const Module = require('../index');
 
@@ -19,4 +20,5 @@ describe('@openrailuk/common test suite', function () {
   stationSuite();
   stationMessageSuite();
   trainOrderSuite();
+  trainStatusSuite();
 });
