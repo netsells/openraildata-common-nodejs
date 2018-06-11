@@ -45,7 +45,7 @@ code coverage:
       - mochawesome-report/mochawesome.html
       - coverage/lcov-report/
   coverage: '/^Statements\s*:\s*([^%]+)/'
-code_quality:
+code quality:
   image: docker:stable
   stage: post test
   variables:
